@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eval</title>
+    <link rel="stylesheet" href="">
+
+</head>
+<body>
+<button class="btn">Bouton</button>
+<table id="pays"></table>
+<script>
+    let tab = {
+        "pays": [
+            "France",
+            "Belgique",
+            "Allemagne",
+            "Italie"
+        ],
+        "capitale": [
+            "Paris",
+            "Bruxelles",
+            "Berlin",
+            "Rome"
+        ],
+        "nombreHabitants": [
+            2000500,
+            300450,
+            3560935,
+            365200
+        ]
+    };
+//    let somme = 0;
+//    for (let i = 0; i < tab.nombreHabitants.length; i++) {
+//        let nbHab = tab.nombreHabitants[i];
+//        somme += nbHab;
+//
+//    }
+//    console.log(somme);
+
+    const btn = document.querySelector(".btn");
+
+
+//    btn.addEventListener("click", () => {
+//        const list = document.createElement("ul");
+//        const body = document.querySelector('body');
+//        body.appendChild(list);
+//
+//
+//        for (let i = 0; i < tab.pays.length; i++) {
+//            let li = document.createElement("li");
+//
+//            li.innerHTML = "<dt>" + tab.pays[i] + "</dt><dd>"
+//                + tab.capitale[i] + "</dd><dd>"
+//                + tab.nombreHabitants[i] + "</dd>";
+//
+//            list.appendChild(li)
+//        }
+//
+//
+//    })
+
+
+//    const req = new XMLHttpRequest();
+//    req.addEventListener("load", evt => {
+//        let data = JSON.parse(req.responseText);
+//        construireTable(data);
+//    });
+//    req.open("GET", "data.json");
+//    req.send()
+//    function construireTable(data){
+//        btn.addEventListener("click", () => {
+//            const list = document.createElement("ul");
+//            const body = document.querySelector('body');
+//            body.appendChild(list);
+//
+//
+//            for (let i = 0; i < data.pays.length; i++) {
+//                let li = document.createElement("li");
+//
+//                li.innerHTML = "<dt>" + data.pays[i] + "</dt><dd>"
+//                    + data.capitale[i] + "</dd><dd>"
+//                    + data.nombreHabitants[i] + "</dd>";
+//
+//                list.appendChild(li)
+//            }
+//        })
+//    }
+//
+
+
+//    JSON
+//    {
+//        "pays": [
+//        "France",
+//        "Belgique",
+//        "Allemagne",
+//        "Italie"
+//    ],
+//        "capitale": [
+//        "Paris",
+//        "Bruxelles",
+//        "Berlin",
+//        "Rome"
+//    ],
+//        "nombreHabitants": [
+//        2000500,
+//        300450,
+//        3560935,
+//        365200
+//    ]
+//    }
+
+</script>
+</body>
+</html>

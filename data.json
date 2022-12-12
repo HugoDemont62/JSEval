@@ -1,0 +1,20 @@
+{
+  "pays": [
+    "France",
+    "Belgique",
+    "Allemagne",
+    "Italie"
+  ],
+  "capitale": [
+    "Paris",
+    "Bruxelles",
+    "Berlin",
+    "Rome"
+  ],
+  "nombreHabitants": [
+    2000500,
+    300450,
+    3560935,
+    365200
+  ]
+}
